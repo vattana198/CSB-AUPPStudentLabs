@@ -1,0 +1,15 @@
+Student,Score
+Student 1,85
+Student 2,92
+Student 3,78
+Student 4,95
+Student 5,88
+Student 6,67
+Student 7,90
+
+Analysis,Result
+total Students,7
+class average,85.0
+minimum_score,67
+maximum_score,95
+median_score,88
