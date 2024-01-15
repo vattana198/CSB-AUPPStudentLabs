@@ -1,20 +1,38 @@
 
 #Libraries you may need:
-import csv, collections, dictionary, (pandas as pd), urlopen, etc..
-
+# import csv, collections, dictionary, , urlopen, etc..
+# import csv, collections, dictionary , urlopen, etc 
+import csv
+import statistics
+import pandas as pd
+from bs4 import BeautifulSoup
 #classes and Functions to implement
 class SchoolAssessmentSystem:
-    def __init__():
+    def __init__(self):
+         pass
+   
+def process_file(self , file_path):        
+        try:    
+            with open('file_path', 'r') as file_path:
+                read = file_path.read()
+                print(f"File content:  {read}")
+        except FileNotFoundError:
+            print("File {file_path} not found")
+        except Exception as e:
+            print(f"Error: {e}")    
 
-    def process_file():            
+   # def transfer_data()
+   #       pass
 
-    def transfer_data():
+   # def fetch_web_data():
 
-    def fetch_web_data():
+   
+   
+   
+   
+   # def analyze_content():
 
-    def analyze_content():
-
-    def generate_summary():
+   # def generate_summary():
 
 
 # Analyze content & display result area
