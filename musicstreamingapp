@@ -1,12 +1,12 @@
 """
 You are part of a team developing a new music streaming app called "MFun." Your task is to design the core functionality that manages the user's music library and playlist creation. Consider the following requirements:
 
-*Music library:*
+Music library:
 Needs to store a collection of songs and their associated metadata (title, artist, album, genre, length).
 Must efficiently retrieve songs by various criteria (artist, album, genre, title).
 Must prevent duplicate song entries.
 
-*Playlists:*
+Playlists:
 Users can create unlimited playlists.
 Each playlist can contain any number of songs, but a song cannot be added multiple times to the same playlist.
 Songs can be added, removed, or reordered within playlists.
